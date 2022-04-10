@@ -1,0 +1,93 @@
+/* -------------------------------------------------------------------------- */
+
+
+/*                            //LINK STICKY footer                            */
+
+
+/* -------------------------------------------------------------------------- */
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+.main-content {
+    flex: 1 0 auto;
+    overflow: hidden;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                              //LINK CONTAINER                              */
+
+
+/* -------------------------------------------------------------------------- */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px 0 15px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                               //LINK GLOBALS                               */
+
+
+/* -------------------------------------------------------------------------- */
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--text-color-dark);
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section {
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+    &__subtitle {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;
+        text-align: center;
+        color: #C0C0C0;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+}
